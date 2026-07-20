@@ -14,6 +14,9 @@
 </div>
 
 ---
+<div align="center">
+  <img src="./banner.svg" alt="AquaGuardian Banner" width="100%">
+</div>
 
 ##  Sobre o Projeto
 
