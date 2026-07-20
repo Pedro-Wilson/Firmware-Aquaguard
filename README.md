@@ -102,15 +102,15 @@ float temp_media = 27;     // Temperatura ideal (°C)
 float tolerancia = 0.5;    // Margem de segurança (±°C)
 ```
 
-- Se `temp <= temp_media - tolerancia` → 🔥 **Aquecedor liga**
-- Se `temp >= temp_media + tolerancia` → ❄️ **Cooler liga**
-- Se estiver dentro da faixa → ⏸️ **Ambos desligados**
-- Se a leitura for inválida (sensor desconectado ou fora de `0–60°C`) → 🛑 **Modo seguro**, ambos desligados
+- Se `temp <= temp_media - tolerancia` →  **Aquecedor liga**
+- Se `temp >= temp_media + tolerancia` →  **Cooler liga**
+- Se estiver dentro da faixa →  **Ambos desligados**
+- Se a leitura for inválida (sensor desconectado ou fora de `0–60°C`) →  **Modo seguro**, ambos desligados
 
 ###  Lógica de Nível de Água
 
-- Nível **baixo** → 🔵 Bomba **liga** para repor água
-- Nível **correto** → ⛔ Bomba **desliga**
+- Nível **baixo** →  Bomba **liga** para repor água
+- Nível **correto** → Bomba **desliga**
 
 ---
 
