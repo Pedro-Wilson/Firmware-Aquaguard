@@ -1,0 +1,61 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#121a22"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2f4f8"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1e2a33" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0b0f14" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0b0f14" stop-opacity="0.75"/>
+    </radialGradient>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#vignette)"/>
+
+  <!-- trilhas de circuito decorativas, simetricas nas laterais -->
+  <g stroke="#22d3ee" stroke-width="1.4" fill="none" opacity="0.5">
+    <path d="M40,50 H150 V95"/>
+    <path d="M60,250 H160 V205"/>
+    <path d="M20,150 H110"/>
+    <circle cx="150" cy="95" r="4" fill="#22d3ee" stroke="none"/>
+    <circle cx="160" cy="205" r="4" fill="#22d3ee" stroke="none"/>
+    <circle cx="110" cy="150" r="4" fill="#22d3ee" stroke="none"/>
+
+    <path d="M1160,50 H1050 V95"/>
+    <path d="M1140,250 H1040 V205"/>
+    <path d="M1180,150 H1090"/>
+    <circle cx="1050" cy="95" r="4" fill="#22d3ee" stroke="none"/>
+    <circle cx="1040" cy="205" r="4" fill="#22d3ee" stroke="none"/>
+    <circle cx="1090" cy="150" r="4" fill="#22d3ee" stroke="none"/>
+  </g>
+
+  <!-- icone central minimalista: gota -->
+  <g transform="translate(558,44)">
+    <circle cx="42" cy="42" r="44" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.6"/>
+    <path d="M42,14 C58,36 66,50 66,60 C66,74 55,84 42,84 C29,84 18,74 18,60 C18,50 26,36 42,14 Z"
+          fill="none" stroke="#67e8f9" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M30,58 C34,64 50,64 54,58" stroke="#22d3ee" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- eyebrow centralizado -->
+  <text x="600" y="168" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="4" fill="#22d3ee">FIRMWARE PARA ESP32</text>
+
+  <!-- titulo centralizado -->
+  <text x="600" y="218" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="700" fill="url(#titleGrad)">AquaGuardian</text>
+
+  <!-- linha de destaque -->
+  <rect x="560" y="234" width="80" height="3" fill="#22d3ee"/>
+
+  <!-- subtitulo centralizado -->
+  <text x="600" y="262" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#94a3b8">Controle automatizado de temperatura e nível de água para aquários</text>
+</svg>
