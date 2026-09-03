@@ -1,7 +1,7 @@
 // ligação nas tomadas 
 // tomada 01 - Bomba 
 // tomada 02 - Aquecedor 
-// tomada 03 - Aquecedor 
+// tomada 03 - fan 
 
 
 
