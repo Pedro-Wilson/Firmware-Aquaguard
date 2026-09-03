@@ -1,3 +1,11 @@
+// ligação nas tomadas 
+// tomada 01 - Bomba 
+// tomada 02 - Aquecedor 
+// tomada 03 - Aquecedor 
+
+
+
+
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
