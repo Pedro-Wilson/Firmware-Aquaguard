@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "Aquaguardian",
+			"path": "../../Aquaguardian"
+		},
+		{
+			"name": "Aquario",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
